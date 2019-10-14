@@ -11,4 +11,6 @@
 
 (?) Parallelism does not help for one-shot linear pebbling.
 
+However same cannot be said about multi-shot liner pebbling.
+
 ## Section 5 Theorem
