@@ -7,4 +7,8 @@
     1. However we don't know if cumulative pebbling complexity can be translated into CCmem for data-dependent MHFs.
 1. Result: CCmem is in 𝛀(n2w) w.h.p if n large compared to w.
 
-## Proof of main theorem (thm1)
+## Helper Thm
+
+(?) Parallelism does not help for one-shot linear pebbling.
+
+## Section 5 Theorem
