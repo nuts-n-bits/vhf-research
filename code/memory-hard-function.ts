@@ -1,5 +1,6 @@
 // This function is not scrypt, but very close.
 // Difference: it does not take mod against the entire image, it mods against the highest 32 bits of the image as an uint32.
+// Also instead of XORing it concats.
 
 // the hash function should have > 32 bits image size
 export function memory_hard_key_derivation(preimage : Uint8Array, hash_function : (x : Uint8Array) => Uint8Array, memory_factor : number) : Uint8Array {
