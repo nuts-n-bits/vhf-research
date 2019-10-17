@@ -13,4 +13,6 @@
 
 However same cannot be said about multi-shot liner pebbling.
 
-## Section 5 Theorem
+## Proof outline
+
+If adversary can produce Ji+1 from Ji without querying h a lot and store only little state, then h is compressible by the state. h is generally not compressible. -><-.
