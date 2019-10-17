@@ -2,7 +2,7 @@
 // Difference: it does not take mod against the entire image, it mods against the highest 32 bits of the image as an uint32.
 
 // the hash function should have > 32 bits image size
-export function memory_hard_key_derivation(preimage : Uint8Array, hash_function : (x : Uint8Array) => Uint8Array, memory_factor : number) : Uint8Array {
+export function memory_hard (preimage : Uint8Array, hash_function : (x : Uint8Array) => Uint8Array, memory_factor : number) : Uint8Array {
 
     const memory_hard_image_pool : Array<Uint8Array> = [hash_function(preimage)]
     let phase_2_latest_image : Uint8Array
